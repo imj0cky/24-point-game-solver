@@ -1,0 +1,15 @@
+{
+  "name": "24-point-game-solver",
+  "version": "1.0.0",
+  "description": "Fast 24-point game solver with exact fraction support — the algorithm behind 24pointgame.com",
+  "type": "module",
+  "scripts": {
+    "example": "tsx example.ts",
+    "test": "tsx --test src/solver.test.ts src/daily.test.ts src/generator.test.ts src/challenge.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.0"
+  }
+}
